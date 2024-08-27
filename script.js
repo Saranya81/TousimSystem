@@ -164,7 +164,7 @@ document.getElementById("loginform").addEventListener("submit", function(event) 
 
     if (email === "admin@gmail.com" && password === "admin") {
         // Navigate to the admin page
-        window.location.href = "../Admin/admin.html";
+        window.location.href = "admin.html";
     } else {
         // Handle incorrect credentials
         alert("Incorrect email or password. Please try again.");
